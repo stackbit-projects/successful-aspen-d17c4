@@ -20,7 +20,7 @@ export default class Page extends React.Component {
                 <article className="post">
                     <header className="post__header">
                         <div className="container container--md">
-                            <h1 className="post__title line-top">{title}</h1>
+                            <h1 className="post__title line-top">{title} ?</h1>
                             {subtitle && (
                                 <div className="post__subtitle">
                                     {subtitle} !!!
