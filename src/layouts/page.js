@@ -37,7 +37,7 @@ export default class Page extends React.Component {
                     )}
                     <div className="post__body text-block">
                         <div className="container container--md">
-                            {markdownify(markdownContent)}
+                            {markdownify(markdownContent)} 
                         </div>
                     </div>
                 </article>
