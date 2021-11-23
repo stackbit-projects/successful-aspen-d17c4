@@ -26,7 +26,7 @@ export default class Portfolio extends React.Component {
                         <h2 className="project-card__title">{title}</h2>
                         {subtitle && (
                             <div className="project-card__subtitle">
-                                {subtitle}
+                                {subtitle} !!
                             </div>
                         )}
                     </header>
