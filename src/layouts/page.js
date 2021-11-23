@@ -23,7 +23,7 @@ export default class Page extends React.Component {
                             <h1 className="post__title line-top">{title}</h1>
                             {subtitle && (
                                 <div className="post__subtitle">
-                                    {subtitle}
+                                    {subtitle} !!!
                                 </div>
                             )}
                         </div>
