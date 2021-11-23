@@ -150,7 +150,7 @@ models:
     type: page
     label: Advanced Page
     layout: advanced
-    hideContent: false
+    hideContent: true
     fields:
       - type: string
         name: title
@@ -828,6 +828,7 @@ models:
         description: The type of the object
         const: text_section
         hidden: true
+    labelField: type
   image_section:
     type: object
     label: Image Section
